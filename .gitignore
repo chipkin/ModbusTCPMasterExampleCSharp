@@ -1,0 +1,10 @@
+
+bin/netcoreapp2\.1/
+
+ModbusTCPMasterExampleCSharp/\.vs/
+
+ModbusTCPMasterExampleCSharp/obj/
+
+ModbusTCPMasterExampleCSharp/Properties/
+
+bin/
