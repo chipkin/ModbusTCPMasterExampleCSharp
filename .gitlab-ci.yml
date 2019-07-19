@@ -21,8 +21,6 @@ Build:
     - msbuild /t:Restore /p:Configuration=Release /p:Platform="Any CPU"
     # Build and package the project in an apk for android
     - msbuild /p:Configuration=Release /p:Platform="Any CPU"
-    - cd ../bin/
-    - dir
   artifacts:
     paths:
       - bin\netcoreapp2.1\ModbusTCPMasterExampleCSharp.dll
